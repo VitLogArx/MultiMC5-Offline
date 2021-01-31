@@ -95,11 +95,6 @@ void LaunchController::login()
         auto task = account->login(m_session, password);
         if (task)
         {
-            m_session = std::make_shared<AuthSession>();
-            m_session->wants_online = m_online;
-            auto task = account->login(m_session, password);
-            if (task)
-            {
                 // We'll need to validate the access token to make sure the account
                 // is still logged in.
                 ProgressDialog progDialog(m_parentWidget);
