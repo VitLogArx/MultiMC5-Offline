@@ -2,6 +2,16 @@
   <img src="https://avatars2.githubusercontent.com/u/5411890" alt="MultiMC logo"/>
 </p>
 
+**This is a "cracked" version of a popular Minecraft launcher that lets you play the game without a Mojang account.**
+This software is not related to MultiMC developers and provided without any warranty. Please don't bomb MultiMC developers if something gets wrong using this launcher.
+
+Offline mode based by this code:
+https://github.com/MultiMC/MultiMC5/commit/6ede3c13b2bcda315e65dd78f2bfd729bc8b699b
+
+Rewrited for use license and offline accounts at the same time
+
+Details about the original launcher below:
+
 MultiMC 5
 =========
 
